@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+}
+
+.card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img{
+    height: 200px;
+    width: 400px;
+}
+
+.habilidades ul{
+    padding-left: 20px;
+}
+
+.caracteristicas p{
+    text-align: center;
+}
