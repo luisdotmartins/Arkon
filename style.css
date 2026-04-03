@@ -1,27 +1,75 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: #181f3c;
 }
 
 .container{
-    background-color: rgb(255, 255, 255);
+    background-color: #181f3c;
 }
 
 .card{
-    background-color: white;
+    background-color: #181f3c;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 20px;
+    border: 2px solid #b78d39;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 2.5rem;
 }
 
 .card img{
-    height: 200px;
-    width: 400px;
+    height: 250px;
+    width: 250px;
+    margin-top: 50px;
+    border-radius: 50px;
+    border: 2px solid #b78d39;
+}
+
+.descricao{
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.habilidades{
+    border-radius: 10px;
+    border: 2px solid #b78d39;
+    padding-left: 33px;
+    padding-right: 33px;
+    margin-bottom: 25px;
+}
+
+.habilidades h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .habilidades ul{
     padding-left: 20px;
+    color: #b78d39;
 }
 
-.caracteristicas p{
+.habilidades li{
+    border-radius: 10px;
+    border: 2px solid #b78d39;
+    padding: 4px;
+    margin-bottom: 5px;
+    background-color: #b78d3937;
+    color: #b78d39;
+}
+
+.caracteristicas{
+    margin-bottom: 50px;
+    border-radius: 12px;
+    border: 2px solid #b78d39;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
+}
+
+h1, h2, p{
+    color: #b78d39;
+}
+h1{
+    margin-bottom: 0px;
 }
